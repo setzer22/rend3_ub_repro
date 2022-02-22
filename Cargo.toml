@@ -1,0 +1,13 @@
+[package]
+name = "rend3_repro"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+env_logger = { version = "0.9", default-features = false, features = ["termcolor", "atty"] }
+glam = "0.20.0"
+rend3 = "0.3"
+rend3-routine = "0.3"
+pollster = "0.2"
+winit = "0.26"
+bytemuck = { version = "1.7", features = ["derive"] }
